@@ -11,28 +11,28 @@
 2. разархивируйте его где вам удобно
 3. откройте cmd через win + r..
    
-![открытие cmd](https://github.com/stevezavdv/FTS/blob/main/site1/step_1.png)
+![открытие cmd](https://github.com/stevezavdv/FTS/blob/main/step_1.png)
 ## дальше только писать :
 1. после открытия коммандной строки скопируйте путь папки где распологается файл app.py и вставьте через cd
    
-![выбор пути](https://github.com/stevezavdv/FTS/blob/main/site1/step_2.png)
+![выбор пути](https://github.com/stevezavdv/FTS/blob/main/step_2.png)
 
 2. установите flask через команду "pip install" (без него нечего не работает)
 
-![установка flask](https://github.com/stevezavdv/FTS/blob/main/site1/step_3.png)
+![установка flask](https://github.com/stevezavdv/FTS/blob/main/step_3.png)
 
 3. введите "app.py" для запуска локального сайта
 
-![запуск сайта](https://github.com/stevezavdv/FTS/blob/main/site1/step_4.png)
+![запуск сайта](https://github.com/stevezavdv/FTS/blob/main/step_4.png)
 
 4. скопируйте URL сайта и вставьте в браузер
 
-![URL ссылка](https://github.com/stevezavdv/FTS/blob/main/site1/step_5.png)
+![URL ссылка](https://github.com/stevezavdv/FTS/blob/main/step_5.png)
 
 >[!NOTE]
 >если при запуске открывается блокнот или визуал студио просто закройте командную строку и запустите  "app.py" через питона
 >
->![запуск через питона](https://github.com/stevezavdv/FTS/blob/main/site1/step_1(else).png)
+>![запуск через питона](https://github.com/stevezavdv/FTS/blob/main/step_1(else).png)
 
 # планы на будующее :
 1. не забросить это дело
