@@ -13,7 +13,7 @@
    
 ![открытие cmd](https://github.com/stevezavdv/FTS/blob/main/site1/step_1.png)
 ## дальше только писать :
-1. после открытия коммандной строки выберите место где храниться данный фаил (cd ...\site1)
+1. после открытия коммандной строки скопируйте ауть расположения файла app.py и вставьте через cd
    
 ![выбор пути](https://github.com/stevezavdv/FTS/blob/main/site1/step_2.png)
 
