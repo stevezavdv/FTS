@@ -17,20 +17,20 @@ def index(name="Гость"):
     message="Доброй ночи"
   return render_template('index.html', name=name, houк=current_hour, msg=message)
 
-product_list=[
-  {'id':1,'name':'Ноутбук','price':50000},
-  {'id':2,'name':'Монитор', 'price':25000},
-  {'id':3,'name':'Клавиатура','price':5000}
+test_list=[
+  {'id':1,'name':'test1'},
+  {'id':2,'name':'test2'},
+  {'id':3,'name':'test3'}
 ]
 
-@app.route('/products')
-def get_products():
-  return render_template('products.html', products=product_list)
+@app.route('/tests')
+def get_tests():
+  return render_template('test_list.html', tests=test_list)
 
-@app.route('/product/<int:product_id>')
-def product_detail(product_id):
-  product=next((p for p in product_list if p['id']==product_id), None)
-  return render_template('product_detail.html', product=product)
+@app.route('/test/<int:test_id>')
+def test_detail(test_id):
+  test=next((t for t in test_list if t['id']==test_id), None)
+  return render_template('test_detail.html', test=test)
 
 @app.route('/surprise')
 def surprise():

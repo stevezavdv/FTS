@@ -2,10 +2,10 @@
 <ul>
   <p>здесь я накидал простой функции перехода между вкладками с использованием массивов</p>
   <p>да пока без кнопок со сменой id но ничего страшного все придет с опытом</p>
-  {% for product in products %}
+  {% for test in tests %}
   <li>
-    <a href="{{url_for('product_detail', product_id=product.id)}}"
-      >{{product.name}}</a
+    <a href="{{url_for('test_detail', test_id=test.id)}}"
+      >{{test.name}}</a
     >
   </li>
   {% endfor %}
