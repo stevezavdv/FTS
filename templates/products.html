@@ -1,0 +1,14 @@
+{% extends "layout.html" %} {% block content %}
+<ul>
+  <p>здесь я накидал простой функции перехода между вкладками с использованием массивов</p>
+  <p>да пока без кнопок со сменой id но ничего страшного все придет с опытом</p>
+  {% for product in products %}
+  <li>
+    <a href="{{url_for('product_detail', product_id=product.id)}}"
+      >{{product.name}}</a
+    >
+  </li>
+  {% endfor %}
+  <a href="http://127.0.0.1:5000/">назад</a>
+</ul>
+{%endblock%}
