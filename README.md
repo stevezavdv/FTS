@@ -21,8 +21,21 @@
 
 ![установка flask](https://github.com/stevezavdv/FTS/blob/main/site1/step_3.png)
 
-3. введите app.py для запуска локального сайта
+3. введите "app.py" для запуска локального сайта
 
 ![запуск сайта](https://github.com/stevezavdv/FTS/blob/main/site1/step_4.png)
 
 4. скопируйте URL сайта и вставьте в браузер
+
+![URL ссылка](https://github.com/stevezavdv/FTS/blob/main/site1/step_5.png)
+
+>[!NOTE]
+>если при запуске открывается блокнот или визуал студио просто закройте командную строку и запустите  "app.py" через питона
+>
+>![запуск через питона](https://github.com/stevezavdv/FTS/blob/main/site1/step_1(else).png)
+
+# планы на будующее :
+1. не забросить это дело
+2. добавить больше функций на сайт
+3. добвать фон и пару анимаций
+4. довести сайт до идеала
